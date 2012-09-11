@@ -1,0 +1,180 @@
+.simpletip {
+	position: relative;
+	cursor: pointer;
+}
+.simpletip_box {
+	color: #fff;
+	position: absolute;
+	min-width: 100px;
+	top: 16px;
+	padding: 20px;
+	border: 1px solid #333;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+	display: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.simpletip_box:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 6px;
+	border-style: solid;
+	border-color: transparent transparent #333 transparent;
+	top: -12px;
+	left: 29px;
+}
+.simpletip_box:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent #fff transparent;
+	top: -10px;
+	left: 30px;
+}
+/*====================
+ 		Green
+ ======================*/
+.simpletip_box.green {
+	background-color: #7bd2a8;
+	border: 1px solid #56a47d;
+	text-shadow: 1px 1px 0px #56a47d;
+	filter: dropshadow(color=#56a47d, offx=1, offy=1);
+}
+.simpletip_box.green:before {
+	border-color: transparent transparent #56a47d transparent;
+}
+.simpletip_box.green:after {
+	border-color: transparent transparent #7bd2a8 transparent;
+}
+/*====================
+		 Red
+ ======================*/
+.simpletip_box.red {
+	background-color: #ef8585;
+	border: 1px solid #d26463;
+	text-shadow: 1px 1px 0px #d26463;
+	filter: dropshadow(color=#d26463, offx=1, offy=1);
+}
+.simpletip_box.red:before {
+	border-color: transparent transparent #d26463 transparent;
+}
+.simpletip_box.red:after {
+	border-color: transparent transparent #ef8585 transparent;
+}
+/*====================
+ 		Yellow
+ ======================*/
+.simpletip_box.yellow {
+	color: #000;
+	background-color: #f7e86a;
+	border: 1px solid #f2da3b;
+	text-shadow: 1px 1px 0px #fbf5c2;
+	filter: dropshadow(color=#fbf5c2, offx=1, offy=1);
+}
+.simpletip_box.yellow:before {
+	border-color: transparent transparent #f2da3b transparent;
+}
+.simpletip_box.yellow:after {
+	border-color: transparent transparent #f7e86a transparent;
+}
+/*====================
+ 		Purple
+ ======================*/
+.simpletip_box.purple {
+	background-color: #cb7bd2;
+	border: 1px solid #ab4fdd;
+	text-shadow: 1px 1px 0px #ab4fdd;
+	filter: dropshadow(color=#ab4fdd, offx=1, offy=1);
+}
+.simpletip_box.purple:before {
+	border-color: transparent transparent #ab4fdd transparent;
+}
+.simpletip_box.purple:after {
+	border-color: transparent transparent #cb7bd2 transparent;
+}
+/*====================
+ 		Grey
+ ======================*/
+.simpletip_box.grey {
+	color: #333;
+	background-color: #ccc;
+	border: 1px solid #333;
+	text-shadow: 1px 1px 0px #ddd;
+	filter: dropshadow(color=#ddd, offx=1, offy=1);
+}
+.simpletip_box.grey:before {
+	border-color: transparent transparent #000 transparent;
+}
+.simpletip_box.grey:after {
+	border-color: transparent transparent #ccc transparent;
+}
+/*====================
+		Orange
+ ======================*/
+.simpletip_box.orange {
+	color: #333;
+	background-color: #fec460;
+	border: 1px solid #ffa800;
+	text-shadow: 1px 1px 0px #ffa800;
+	filter: dropshadow(color=#ffa800, offx=1, offy=1);
+}
+.simpletip_box.orange:before {
+	border-color: transparent transparent #ffa800 transparent;
+}
+.simpletip_box.orange:after {
+	border-color: transparent transparent #fec460 transparent;
+}
+/*====================
+ 		Blue
+ ======================*/
+.simpletip_box.blue {
+	background-color: #6b92f4;
+	border: 1px solid #4c69d5;
+	text-shadow: 1px 1px 0px #4c69d5;
+	filter: dropshadow(color=#4c69d5, offx=1, offy=1);
+}
+.simpletip_box.blue:before {
+	border-color: transparent transparent #4c69d5 transparent;
+}
+.simpletip_box.blue:after {
+	border-color: transparent transparent #6b92f4 transparent;
+}
+/*====================
+ 		White
+ ======================*/
+.simpletip_box.white {
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	text-shadow: 1px 1px 0px #ccc;
+	filter: dropshadow(color=#ccc, offx=1, offy=1);
+}
+.simpletip_box.white:before {
+	border-color: transparent transparent #ccc transparent;
+}
+.simpletip_box.white:after {
+	border-color: transparent transparent #fff transparent;
+}
+/*====================
+		 Black
+ ======================*/
+.simpletip_box.black {
+	color: #fff;
+	background-color: #333;
+	border: 1px solid #000;
+	text-shadow: 1px 1px 0px #444;
+	filter: dropshadow(color=#444, offx=1, offy=1);
+}
+.simpletip_box.black:before {
+	border-color: transparent transparent #000 transparent;
+}
+.simpletip_box.black:after {
+	border-color: transparent transparent #333 transparent;
+}

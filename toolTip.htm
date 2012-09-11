@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ToolTip</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/simpletip.css">
+		<style type="text/css" >
+			body {
+				background-color: #ebebeb;
+				text-align: center;
+				padding-top: 40px;
+				font-family: 'arial';
+				font-weight: 100;
+				text-align: center;
+				color: #666;
+			}
+			.wrap {
+				width: 960px;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.box {
+				width: 100px;
+				height: 60px;
+				border: solid 1px #333;
+				margin: 10px;
+				text-align: center;
+				padding-top: 40px;
+				display: inline-block;
+			}
+			.clear {
+				clear: both;
+			}
+			a:link {
+				color: #fb9191;
+				font-weight: bold;
+			}
+			img {
+				position: relative;
+				left: 30px;
+				top: 0px;
+				margin-bottom: 30px
+			}
+			p {
+				margin-top: 40px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<img src="img/logo.png" alt="SimpleTip" />
+				<br />
+			</header>
+			<div class="simpletip green box" title="This is a green tooltip." style="background-color:#7bd2a8;border-color:#56a47d;color:#fff;">
+				Green
+			</div>
+			<div class="simpletip blue box" title="This is a blue tooltip"  style="background-color:#6b92f4;border-color:#4c69d5;color:#fff;">
+				Blue
+			</div>
+			<div class="simpletip purple box" title="This is a purple tooltip" style="background-color:#cb7bd2;border-color:#ab4fdd;color:#fff;">
+				Purple
+			</div>
+			<div class="clear"></div>
+			<div class="simpletip yellow box" title="This is a yellow tooltip" style="background-color:#f7e86a;border-color:#f2da3b;color:#333;">
+				Yellow
+			</div>
+			<div class="simpletip orange box" title="This is a orange tooltip" style="background-color:#fec460;border-color:#ffa800;color:#333;">
+				Orange
+			</div>
+			<div class="simpletip red box" title="This is a red tooltip" style="background-color:#ef8585;border-color:#d26463;color:#fff;">
+				Red
+			</div>
+			<div class="clear"></div>
+			<div class="simpletip white box" title="This is a white tooltip" style="background-color:#fff;border-color:#ccc;color:#333;">
+				White
+			</div>
+			<div class="simpletip grey box" title="This is a grey tooltip" style="background-color:#ccc;border-color:#333;color:#333;">
+				Grey
+			</div>
+			<div class="simpletip black box" title="This is a black tooltip" style="background-color:#333;border-color:#000;color:#fff;">
+				Black
+			</div>
+			<p>
+				Simple, multi-coloured jQuery tooltips
+				<br />
+				<br />
+				<a href="css/dl/simpleTip.zip">Download</a> the source files.
+			</p>
+		</div>
+		<!--   Script Calls  -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/simpleTip.js"></script>
+	</body>
+</html>
